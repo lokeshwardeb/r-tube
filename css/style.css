@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ac-group-lines{
+    margin-left: 300px !important;
+}
+
+.side_list_option ul{
+    list-style: none;
+}
+/* .side_list_option ul li a{
+    background-color: ;
+} */
+.side_list_option li{
+    text-align: center;
+    
+}
+.side_list_option li a{
+    color: black;
+}
+ul li a{
+    text-decoration: none !important;
+}
+.active{
+background-color: #ddd;
+/* width: 100vw; */
+}
