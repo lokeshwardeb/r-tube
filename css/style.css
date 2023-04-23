@@ -26,6 +26,95 @@ ul li a{
     text-decoration: none !important;
 }
 .active{
-background-color: #ddd;
+background-color: #f0f0f0;
+border-radius: 5px;
+font-weight: 600;
 /* width: 100vw; */
+}
+.active:hover{
+background-color: #E6E6E6;
+border-radius: 5px;
+font-weight: 600;
+/* width: 100vw; */
+}
+tp-yt-paper-item {
+    width: 100%; background: #f0f0f0;
+    height: auto !important;
+    display: flex;
+    text-align: center;
+}
+
+tp-yt-paper-item:hover {
+    /* background-color: #E6E6E6; */
+    background-color: #f0f0f0;
+border-radius: 5px;
+}
+
+yt-icon{
+    text-align: center;
+    width: 25px;
+    margin-left: 10px !important;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    /* display: flex !important; */
+}
+.container-25px-{
+    margin-left: -25px !important;
+}
+ .camera {
+    margin-left: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    /* display: flex !important; */
+}
+.logbar svg{
+    display: flex !important;
+    margin-top: 20px;
+    margin-right: 22px;
+    opacity: 54%;
+    width: 20px;
+    height: 20px;
+}
+.cus-search{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+}
+.search{
+    margin-left: 115px !important;
+    margin-top: -8px !important;
+    padding-top: 0px !important;
+    margin-right: 170px;
+}
+.video-camera-btn{
+    width: 46px;
+    margin-top: 8px;
+}
+.icon-pr-btn{
+    height: 35px;
+    width: 35px;
+}
+.cus-search-span{
+    height: 40px;
+}
+yt-formatted-string{
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+tp-yt-paper-item {
+    width: 100%;
+    background: white;
+    height: auto !important;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+}
+tp-yt-paper-item .active {
+    width: 100%;
+    background: #ddd;
+    height: auto !important;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
 }
