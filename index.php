@@ -1,3 +1,9 @@
+<?php 
+require "inc/functions.php";
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/youtube_origina.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -175,7 +182,7 @@
 </tp-yt-paper-item>
 </div>
 
-<div class="side_link_option d-flex">
+<div class="side_link_option d-flex" id="show_more_section" onclick="toggle_section()">
 <tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" style-target="host" tabindex="0" aria-disabled="false" aria-selected="false"><!--css-build:shady-->
     <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M12,15.7L5.6,9.4l0.7-0.7l5.6,5.6l5.6-5.6l0.7,0.7L12,15.7z" class="style-scope yt-icon"></path></g></svg><!--css-build:shady--></yt-icon>
     <yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer" disable-upgrade="" hidden="">
@@ -191,12 +198,21 @@
 </tp-yt-paper-item>
 </div>
 
-<div class="side_link_option d-flex">
+<div class="side_link_option d-flex side_toggle_options">
 <tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" style-target="host" tabindex="0" aria-disabled="false" aria-selected="false"><!--css-build:shady-->
     <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M22,7H2v1h20V7z M13,12H2v-1h11V12z M13,16H2v-1h11V16z M15,19v-8l7,4L15,19z" class="style-scope yt-icon"></path></g></svg><!--css-build:shady--></yt-icon>
     <yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer" disable-upgrade="" hidden="">
     </yt-img-shadow>
-    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer">PHP Bangla Tutorial - Full Course | বাংলা পি এইচ পি টিউটোরিয়াল সিরিজ</yt-formatted-string>
+    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer">
+
+ <?php 
+ 
+//  to add a dynamic string using add_doted_str function
+add_doted_str("PHP Bangla Tutorial - Full Course | বাংলা পি এইচ পি টিউটোরিয়াল সিরিজ");
+
+?>
+
+    </yt-formatted-string>
     <span class="guide-entry-count style-scope ytd-guide-entry-renderer">
       
     </span>
@@ -208,12 +224,21 @@
 </div>
 
 
-<div class="side_link_option d-flex">
+<div class="side_link_option d-flex side_toggle_options">
 <tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" style-target="host" tabindex="0" aria-disabled="false" aria-selected="false"><!--css-build:shady-->
     <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M10.5,14.41V9.6l4.17,2.4L10.5,14.41z M8.48,8.45L7.77,7.75C6.68,8.83,6,10.34,6,12s0.68,3.17,1.77,4.25l0.71-0.71 C7.57,14.64,7,13.39,7,12S7.57,9.36,8.48,8.45z M16.23,7.75l-0.71,0.71C16.43,9.36,17,10.61,17,12s-0.57,2.64-1.48,3.55l0.71,0.71 C17.32,15.17,18,13.66,18,12S17.32,8.83,16.23,7.75z M5.65,5.63L4.95,4.92C3.13,6.73,2,9.24,2,12s1.13,5.27,2.95,7.08l0.71-0.71 C4.02,16.74,3,14.49,3,12S4.02,7.26,5.65,5.63z M19.05,4.92l-0.71,0.71C19.98,7.26,21,9.51,21,12s-1.02,4.74-2.65,6.37l0.71,0.71 C20.87,17.27,22,14.76,22,12S20.87,6.73,19.05,4.92z" class="style-scope yt-icon"></path></g></svg><!--css-build:shady--></yt-icon>
     <yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer" disable-upgrade="" hidden="">
     </yt-img-shadow>
-    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Mix - Jeene Laga Hoon Lyrical - Ramaiya Vastavaiya | Girish Kumar, Shruti Haasan | Atif Aslam</yt-formatted-string>
+    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer">
+
+    <?php
+
+add_doted_str("Mix - Jeene Laga Hoon Lyrical - Ramaiya Vastavaiya | Girish Kumar, Shruti Haasan | Atif Aslam");
+    
+    
+    ?>
+
+    </yt-formatted-string>
     <span class="guide-entry-count style-scope ytd-guide-entry-renderer">
       
     </span>
@@ -225,12 +250,12 @@
 </div>
 
 
-<div class="side_link_option d-flex">
+<div class="side_link_option d-flex no-disp" id="show_less_section" onclick="toggle_section()">
 <tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" style-target="host" tabindex="0" aria-disabled="false" aria-selected="false"><!--css-build:shady-->
     <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><polygon points="18.4,14.6 12,8.3 5.6,14.6 6.4,15.4 12,9.7 17.6,15.4 " class="style-scope yt-icon"></polygon></g></svg><!--css-build:shady--></yt-icon>
     <yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer" disable-upgrade="" hidden="">
     </yt-img-shadow>
-    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer">Show less</yt-formatted-string>
+    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer ">Show less</yt-formatted-string>
     <span class="guide-entry-count style-scope ytd-guide-entry-renderer">
       
     </span>
@@ -240,10 +265,27 @@
   
 </tp-yt-paper-item>
 </div>
-
+<hr>
 
 <div class="side_link_option d-flex">
-    
+ <div class="fs-6 ps-2">
+    Subscriptions
+ </div>
+</div>
+
+<div class="side_link_option d-flex red-live-icon">
+<tp-yt-paper-item class="style-scope ytd-guide-entry-renderer" role="tab" style-target="host" tabindex="0" aria-disabled="false" aria-selected="false" aria-label="SOMOY TV. Live streaming."><!--css-build:shady-->
+    <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer" disable-upgrade="{&quot;thumbnails&quot;:[{&quot;url&quot;:&quot;https://yt3.ggpht.com/T9GKAlpplboyhpfoDFiVeyQdA7l2mx4mp51UxNFpbtEO3XAJT5KY7IUQJ-KlXVXBkpMQc94U=s88-c-k-c0x00ffffff-no-rj&quot;}]}" hidden="">
+    </yt-icon>
+    <yt-img-shadow height="24" width="24" class="style-scope ytd-guide-entry-renderer no-transition" style="background-color: transparent;" loaded=""><!--css-build:shady--><img id="img" draggable="false" class="style-scope yt-img-shadow" height="24" width="24" alt="" src="https://yt3.ggpht.com/T9GKAlpplboyhpfoDFiVeyQdA7l2mx4mp51UxNFpbtEO3XAJT5KY7IUQJ-KlXVXBkpMQc94U=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
+    <yt-formatted-string class="title style-scope ytd-guide-entry-renderer">SOMOY TV</yt-formatted-string>
+    <span class="guide-entry-count style-scope ytd-guide-entry-renderer">
+      
+    </span>
+    <yt-icon class="guide-entry-badge style-scope ytd-guide-entry-renderer" size="16"><svg viewBox="0 0 16 16" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M9 8.00004C9 8.55004 8.55 9.00004 8 9.00004C7.45 9.00004 7 8.55004 7 8.00004C7 7.45004 7.45 7.00004 8 7.00004C8.55 7.00004 9 7.45004 9 8.00004ZM10.11 10.13L10.82 10.84C11.55 10.11 12 9.11004 12 8.00004C12 6.89004 11.55 5.89004 10.82 5.16004L10.11 5.87004C10.66 6.42004 11 7.17004 11 8.00004C11 8.83004 10.66 9.58004 10.11 10.13ZM5.18 10.84L5.89 10.13C5.34 9.58004 5 8.83004 5 8.00004C5 7.17004 5.34 6.42004 5.89 5.87004L5.18 5.16004C4.45 5.89004 4 6.89004 4 8.00004C4 9.11004 4.45 10.11 5.18 10.84ZM12.23 12.25L12.94 12.96C14.21 11.69 15 9.94004 15 8.00004C15 6.06004 14.21 4.31004 12.94 3.04004L12.23 3.75004C13.32 4.84004 14 6.34004 14 8.00004C14 9.66004 13.32 11.16 12.23 12.25ZM3.06 12.96L3.77 12.25C2.68 11.16 2 9.66004 2 8.00004C2 6.34004 2.68 4.84004 3.77 3.75004L3.06 3.04004C1.79 4.31004 1 6.06004 1 8.00004C1 9.94004 1.79 11.69 3.06 12.96Z" class="style-scope yt-icon"></path></g></svg><!--css-build:shady--></yt-icon>
+    <div id="newness-dot" class="style-scope ytd-guide-entry-renderer"></div>
+  
+</tp-yt-paper-item>
 </div>
 
                     </div>

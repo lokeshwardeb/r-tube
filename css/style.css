@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+:root{
+    --yt-spec-static-brand-red: red;
+}
 
 .ac-group-lines{
     margin-left: 300px !important;
@@ -117,4 +120,19 @@ tp-yt-paper-item .active {
     display: flex;
     text-align: center;
     font-size: 14px;
+}
+.no-disp{
+    display: none !important;
+}
+
+/* .guide-entry-badge .ytd-guide-entry-renderer s {
+    width: 16px;
+    height: 16px;
+    color: red !important;
+    display: none;
+    
+} */
+
+.red-live-icon yt-icon .guide-entry-badge .style-scope .ytd-guide-entry-renderer{
+    color:red !important;
 }
