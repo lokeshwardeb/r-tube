@@ -136,3 +136,18 @@ tp-yt-paper-item .active {
 .red-live-icon yt-icon .guide-entry-badge .style-scope .ytd-guide-entry-renderer{
     color:red !important;
 }
+#endpoint{
+    width: 100%;
+    background: white;
+    height: auto !important;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.cus-pointer-cursor{
+    cursor:pointer !important;
+    
+}
+
