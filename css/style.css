@@ -158,6 +158,14 @@ tp-yt-paper-item .active {
 }
 
 .cus-video-block{
-    height: 250px;
+    max-height: 236px;
+}
+
+video{
+    /* height: 250px;
+    width: 400px; */
+    max-width: 406px !important;
+    max-height: 265px !important;
+    margin-left: -16px !important;
 }
 
